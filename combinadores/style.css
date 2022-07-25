@@ -1,0 +1,50 @@
+/* *Los selectores combinadores*/
+/*se llaman así porque permiten ser más específicos en el elemento a seleccionar y se pueden combinar dos o más selectores básicos*/
+
+/* *combinador de descendientes*/
+/* combina dos selectores donde el primer selector es ancestro del segundo selector */
+/* /*su estructura es la siguiente (ejemplo de listas ul) 
+ul .lista{
+}
+.listas .lista{
+} hace exactamente lo mismo que lo anterior
+*/
+
+
+
+/* /*selecciona todos los elementos que son descendientes de un elemento específico*/
+/*aqui hablamos de padres
+por ejemplo body es el padre y los h2 los hijos*/
+
+
+/* *combinador de padre directo*/
+/* combina dos selectores donde el primer selector es padre directo del segundo selector */
+/* /*su estructura es la siguiente (ejemplo de listas ul)
+.lista > lista{
+}
+*/
+
+
+/* *combinador de hermano adyacente*/
+/* combina dos selectores donde el primer selector es hermano adyacente del segundo selector */
+/*solamente selecciona a su hermano adyacente o el que le sigue
+su estructura es la siguiente
+.subtitulo +*{
+aquí se usa el selector universal porque puedes seleccionar
+a cualquier elemento que sigue
+si se busca ser más especifico se puede escribir la clase
+del hermano adyacente
+}
+*/
+
+
+
+/* *combinador de hermanos generales*/
+/*es similar al de hermanos adyacentes pero este selecciona a todos los hermanos, no solo al siguiente
+para invocarlo se usa una virigilla
+por ejemplo
+.subtitulo ~*{
+    usar el selector universal es ideal a no ser que se quiera
+    poner estilo a alguna etiqueta específica
+}
+*/

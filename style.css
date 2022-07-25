@@ -1,0 +1,38 @@
+/* Un selector es una regla css que se aplica a un elemento.
+definen que elementos html serán modificados
+*/
+
+/**selector de tipo*/
+/* tambien conocido como selector de nombre o etiqueta:
+selecciona directamente segun el nombre, por ejemplo
+h1, h2, body, button, etc*/
+/*no se recomienta usarlo a excepción del body*/
+/*- estudiar especifidad
+
+/* *selector de clase*/
+/*selecciona elementos por el nombre del atributo class*/
+/*se recomienda usarlo solo en elementos que no sean de tipo html
+su estructura es la siguiente
+.nombreDeLaClase{}*/
+
+.peliculas{
+    color:brown;
+}
+
+.series{
+    font-weight: bold;
+}
+
+/* *Selectores de ID*/
+/*su estructura es la siguiente
+#nombreDelID{}*/
+/*No es recomendable, las buenas prácticas son trabajar con clases*/
+
+/* *Selector Universal*/
+/*este selector selecciona a todos los elementos*/
+/*su estructura es la siguiente
+*{}    */
+/*Este selector se aplica a todas las etiquetas html*/
+/*muchas veces viene implicito en el código*/
+
+

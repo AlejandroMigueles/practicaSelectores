@@ -1,0 +1,23 @@
+/*En css podemos seleccionar elementos por sus atributos
+a esto se le conoce como selector de atributo, su declaracion es la siguiente:
+[nombre del atributo]{
+}
+puede ser class, type, etc*/
+
+[value]{
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+}
+
+/*otro ejemplo es poniendo el atributo y su propiedad*/
+
+[type="submit"]{
+    background-color: blueviolet;
+}
+
+/*otra propiedad interesante es usar el selector de atributos con caracteres especiales*/
+
+[value*="Aquí"]{
+    background-color: aqua;
+}
